@@ -1,0 +1,72 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    background-color: darkcyan;
+    color: aliceblue;
+    height: 5rem;
+    line-height: 5rem;
+    text-align: center;
+    min-height: 100vm;
+}
+
+.flex-prop {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img-sec{
+
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.img-sec:hover{
+
+    border: 3px solid black;
+}
+
+img{
+
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+.gamearea{
+    min-height: 40vh;
+    gap: 3rem;
+}
+
+#user-score , #sys-score {
+
+    font-size: 2.5rem;
+}
+p{
+ font-size: 1.5rem;
+}
+.score-sec{
+    margin: 20px;
+    text-align: center;
+    gap: 15rem;
+}
+
+.display{
+
+    margin: 70px;
+}
+
+#msg{
+
+    background-color: #081b31;
+    color: white;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+
